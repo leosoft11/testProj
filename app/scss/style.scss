@@ -203,10 +203,17 @@
 @media (max-width: 480px) {
   .items__pos-1 {
     order: 2;
-    .mt {
+    /*.mt {
       margin-top: 0;
-    }
+    } */
     margin-bottom: 10px;
+    .items__columns {
+      .first-height {
+        min-height: auto;
+        height: 211px;
+        overflow: scroll;
+      }
+    }
   }
   .items__pos-2 {
     order: 1;
